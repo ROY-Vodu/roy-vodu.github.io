@@ -20,7 +20,9 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
+main {
+    margin-top: 110px;
+}
 header {
     background-color: #333;
     color: #fff;
@@ -56,7 +58,7 @@ ul {
     margin: 0;
 }
 
-ul.languages li:before {
+ul.add_check li:before{
     content: "\2713\0020";
     color: green;
     list-style: none;
@@ -93,38 +95,6 @@ footer a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Add this class to the HTML element that contains the CV content */
-/*
-.CV-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
-.CV-container section {
-    flex-basis: 100%;
-}
-*/
-
-/* Media Queries 
-
-@media (max-width: 768px) {
-    .container {
-        margin: 20px auto;
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-        margin: 10px auto;
-    }
-
-    section {
-        margin-bottom: 10px;
-    }
-}
-*/
 .avatar {
     float: left;
     width: 200px;
