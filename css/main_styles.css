@@ -1,0 +1,174 @@
+/* styles.css */
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    /* width: 1024px; */
+    width: 1024px;
+    display: block;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+ul.languages li:before {
+    content: "\2713\0020";
+    color: green;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    /* list-style: circle; */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    font-size: small;
+    text-align: right;
+}
+
+footer a {
+    color: #fff;
+    padding-top: 5px;
+}
+
+/* Layout */
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add this class to the HTML element that contains the CV content */
+/*
+.CV-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.CV-container section {
+    flex-basis: 100%;
+}
+*/
+
+/* Media Queries 
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 10px auto;
+    }
+
+    section {
+        margin-bottom: 10px;
+    }
+}
+*/
+.avatar {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    /* color: green; */
+}
+
+nav a:hover {
+    color: chocolate;
+}
+header a.mail {
+    color: #fff;
+}
+
+.skills-hr {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
