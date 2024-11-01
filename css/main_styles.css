@@ -78,6 +78,7 @@ footer {
     clear: both;
     font-size: small;
     text-align: right;
+    height: 50px;
 }
 
 footer a {
@@ -116,7 +117,7 @@ nav a {
 nav a:hover {
     color: chocolate;
 }
-header a.mail {
+header a.mail, a.telephone{
     color: #fff;
 }
 
@@ -141,4 +142,13 @@ pre {
     padding: 1em 1.5em;
     display: block;
     word-wrap: break-word;
+}
+
+footer .l_footer {
+    margin: auto;
+    float: left;
+}
+footer .r_footer {
+    margin: auto;
+    float: right;
 }
