@@ -144,11 +144,15 @@ pre {
     word-wrap: break-word;
 }
 
-footer .l_footer {
+div .l_footer, div .r_footer{
     margin: auto;
+    padding: 5em;
+    display: inline-block;
+    height: 48px;
+}
+footer .l_footer {
     float: left;
 }
 footer .r_footer {
-    margin: auto;
     float: right;
 }
